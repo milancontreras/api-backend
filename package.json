@@ -19,9 +19,15 @@
   },
   "homepage": "https://github.com/milancontreras/api-backend#readme",
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "standard": "^17.0.0"
   },
   "dependencies": {
     "express": "^4.18.1"
+  },
+  
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
   }
+  
 }
