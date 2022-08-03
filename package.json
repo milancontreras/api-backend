@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/milancontreras/api-backend/issues"
   },
-  "homepage": "https://github.com/milancontreras/api-backend#readme"
+  "homepage": "https://github.com/milancontreras/api-backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
