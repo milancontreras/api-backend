@@ -1,7 +1,10 @@
 //  const http = require('http') //Native module from node.js
 const express = require('express')//    Third party module. express is a web framwork
+const cors = require('cors')//  Third party module. cors is a middleware
+
 const app = express()
 
+app.use(cors())
 app.use(express.json())
 
 app.use((req, res, next) => {
