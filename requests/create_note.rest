@@ -1,0 +1,14 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "title": "This is a note",
+  "content": "This is the content of the note"
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+}
